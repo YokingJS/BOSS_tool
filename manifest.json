@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+  
+    "name": "BossTool",
+
+    "description": "",
+
+    "author": "球哥",
+
+    "version": "1.0.3",
+  
+    "permissions": [
+        "tabs", "http://*/*", "https://*/*"
+    ],
+    "content_scripts": [
+        {"js":["BOSS-communication.js"],"matches":["https://www.zhipin.com/*"]}
+    ]
+  }
